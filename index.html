@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Naruto Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">Naruto Survey Form</h1>
+    <p id="description">Pleace fill the form, thank you.</p>
+    <form action="" id="survey-form">
+      <label for="name" id="name-label">
+        Name
+        <input type="text" id="name" placeholder="Sarifudin" required />
+      </label>
+      <label for="email" id="email-label">
+        Email
+        <input type="email" id="email" placeholder="sarifudin@gmai.com" required/>
+      </label>
+      <label for="number" id="number-label">
+        Age
+        <input type="number" id="number" min="15" max="40" placeholder="14" required />
+      </label>
+      <label for="dropdown" id="dropdown-label">
+        how do you know anime.?
+        <select name="dropdown" id="dropdown" required>
+          <option disabled selected>Choose a media</option>
+          <option>Youtube</option>
+          <option>Facebook</option>
+          <option>Telegram</option>
+        </select>
+      </label>
+      <p>Would you recommend Naruto to a friend?</p>
+      <label for="divinitely" style="display: inline">
+        <input 
+          type="radio" 
+          name="recom" 
+          id="divinitely"
+          value="Divinitely"
+          style="display: inline"
+        />
+        Divinitely
+      </label></br></br>
+      <label for="maybe" style="display: inline">
+        <input 
+          type="radio" 
+          name="recom" 
+          id="maybe" 
+          value="maybe"
+          style="display: inline"
+          checked
+        />
+        Maybe
+      </label></br></br>
+      <label for="not-sure" style="display: inline">
+        <input 
+          type="radio" 
+          name="recom" 
+          id="not-sure"
+          value="not sure" 
+          style="display: inline"
+        />
+        Not Sure
+      </label>
+      <p>Who are the shinobi you like in the Naruto anime,?</p>
+      <label for="naruto" style="display: inline">
+        <input 
+          type="checkbox" 
+          id="naruto" 
+          value="naruto"
+          style="display: inline"
+        />
+        Naruto
+      </label></br></br>
+      <label for="boruto" style="display: inline">
+        <input 
+          type="checkbox" 
+          id="boruto" 
+          value="Boruto"
+          style="display: inline"
+        />
+        Boruto
+      </label></br></br>
+      <label for="sasuke" style="display: inline">
+        <input 
+          type="checkbox" 
+          id="sasuke" 
+          value="sasuke"
+          style="display: inline"
+        />
+        Sasuke
+      </label></br></br>
+      <label for="itachi" style="display: inline">
+        <input 
+          type="checkbox" 
+          id="itachi" 
+          value="itachi"
+          style="display: inline"
+        />
+        Itachi
+      </label></br></br>
+      <label for="madara" style="display: inline">
+        <input 
+          type="checkbox" 
+          id="madara" 
+          value="madara"
+          style="display: inline"
+        />
+        Madara
+      </label></br></br>
+      <label for="">
+        Any comments or suggestions?
+        <textarea name="" id="" rows="8" placeholder="Enter your comment here..."></textarea>
+      </label>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
